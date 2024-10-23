@@ -33,7 +33,7 @@ All files include comments to facilitate understanding of the code. Note that bo
    - Implemented after ADI, as it generalizes the Thomas Algorithm for block tridiagonal systems where each matrix element is a submatrix (block). This structure is typical for 2D discretized problems.
 
 3. **SOR Method**:
-   - The SOR (Successive Over-Relaxation) method was implemented last to achieve faster convergence, especially for solving large-grid elliptic equations. The adjustable relaxation parameter \( \omega \) allows for tuning to improve the rate of convergence.
+   - The SOR (Successive Over-Relaxation) method was implemented last to achieve faster convergence, especially for solving large-grid elliptic equations. The adjustable relaxation parameter w (omega) allows for tuning to improve the rate of convergence.
 
 4. **Solutions for Tasks**:
    - The solutions are presented with LaTeX-formatted equations, including coefficients and boundary/internal conditions, followed by visualization and conclusions.
